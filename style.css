@@ -43,12 +43,7 @@ body {
 h1 {
   font-family: "Courier New", Courier, monospace;
 }
-.container {
-  border-style: dotted;
-  background-color: white;
-  color: #6c3;
-  width: 50%;
-}
+
 .wrapper2 {
   min-height: 100vh;
 }
