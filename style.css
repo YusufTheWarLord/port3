@@ -1,33 +1,8 @@
-html {
-  height: 100%;
-}
-
 body {
-  margin: 0;
-  background-image: linear-gradient(rgb(66, 0, 128), blue);
+  background-image: linear-gradient(black, white);
 }
 #Skills {
   height: 100vh;
-}
-.bg {
-  animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-  bottom: 0;
-  left: -50%;
-  opacity: 0.5;
-  position: fixed;
-  right: -50%;
-  top: 0;
-  z-index: -1;
-}
-
-.bg2 {
-  animation-direction: alternate-reverse;
-  animation-duration: 4s;
-}
-
-.bg3 {
-  animation-duration: 5s;
 }
 
 .content {
@@ -43,6 +18,15 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.skill {
+  background-image: url(index.jpeg);
+}
+
+.underline {
+  width: 150px;
+  border: 3px solid #eee;
+  margin: auto;
+}
 h1 {
   font-family: "Courier New", Courier, monospace;
 }
@@ -54,12 +38,15 @@ h1 {
   background-repeat: no-repeat;
 }
 .bambam {
-  background-image: linear-gradient(rgb(66, 0, 128), blue);
+  background-image: linear-gradient(black, white);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   margin-top: 20px;
   padding: 10%;
   width: 100%;
   display: flex;
+  color: black;
 }
 
 .timeline {
@@ -306,7 +293,9 @@ h1 {
 }
 
 #testimonials {
-  background-image: linear-gradient(rgb(66, 0, 128), blue);
+  background-image: url(https://cutewallpaper.org/21/pokemon-wallpaper-for-ipad/2048x2048-Charizard-Pokemon-Ipad-Air-HD-4k-Wallpapers-.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 input[type="text"],
@@ -336,7 +325,7 @@ input[type="submit"]:hover {
 .contactform {
   position: relative;
   border-radius: 50px;
-  background-color: #f2f2f2;
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700946456.jpg);
   padding: 5px;
   z-index: 2;
   display: block;
@@ -345,17 +334,13 @@ input[type="submit"]:hover {
   margin-bottom: auto;
   margin-top: 3%;
   width: 50%;
-  animation-name: gradient;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  color: red;
 }
-
-.contactform:hover {
-  animation-name: gradient;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
+#contact {
+  background-image: url(https://wallpapercave.com/wp/FoNLH6h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .column {
   float: center;
   width: 50%;
@@ -378,27 +363,6 @@ input[type="submit"]:hover {
   input[type="submit"] {
     width: auto;
     margin-top: 0;
-  }
-}
-
-@keyframes gradient {
-  0% {
-    background-color: #d78ddb;
-  }
-  20% {
-    background-color: #7af2c3;
-  }
-  40% {
-    background-color: #759cec;
-  }
-  60% {
-    background-color: #23f2eb;
-  }
-  80% {
-    background-color: #f27723;
-  }
-  100% {
-    background-color: #ad3bd7;
   }
 }
 
